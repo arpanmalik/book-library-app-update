@@ -1,0 +1,52 @@
+.App{
+    max-width:100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .part-1{
+    flex-basis:30%;
+    background-color:white;
+    height:1000px;
+  }
+  
+  .part-2{
+    background-color:white;
+    flex-basis:70%;
+    height:1000px;
+  }
+
+  .container{
+    margin:10px;
+  }
+
+  .gride{
+    max-width: 120rem;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap:1.6rem;
+    padding:50px;
+  }
+
+  .carde{
+    padding:2em;
+    border : 1px solid #888;
+    height:100%;
+  }
+
+  .heading{
+    text-align: center;
+  }
+  .cont-name{
+    align-items:center;
+    margin:20px;
+  }
+
+  .book-title{
+    height:75%;
+    font-size:20px;
+  }
+  
+  .book-auth{
+    padding-bottom:4%;
+  }
